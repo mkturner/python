@@ -1,0 +1,22 @@
+#Chapter 05 Quiz
+
+**What is the difference between `input()` and `raw_input()`?**
+`input()` attempts to match what is entered to a known data 
+type and store the data as that type. `raw_input()` stores
+all data as a string. 
+
+**How do oyu get sensitive user information securely?**
+use the `getpass()` function from the `getpass` module.
+i.e. `from getpass import getpass`
+     `password = getpass()`
+
+**How would you remove extra whitespace from just the end of a string?**
+`rstrip()` function
+
+**How do you insert strings into other strings without using the + 
+operator? How do you indicate where you want strings inserted?**
+Use the format command that is a part of the string interface. You insert
+brace pairs `{}` as placeholders for the strings that shoukd be inserted.
+
+**How do you convert a string to a float? How about an integer?**
+use the `float()` or `int()` functions, respectively.
