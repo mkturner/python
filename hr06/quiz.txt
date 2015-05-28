@@ -1,0 +1,15 @@
+# Quiz
+
+1. How would you count how many times an item is in a list?
+use `_list_.count()`
+
+2. How do you add a new item to a list?
+use `_list_.append()`
+
+3. What is the difference between reverse() and sort()?
+`reverse()` merely switches the order of the items, while `sort()`
+puts them in numeric or alphabetical order
+
+4. How would you get a list of names to be sorted in reverse alphabetical order?
+Use `sort()` to get alphabetical order, then use `reverse()` to get reverse alphabetical order.
+
